@@ -43,7 +43,8 @@ public class SupplierDetailsRepository {
                             + "contactPerson = ?,"
                             + "email = ?, "
                             + "Phone = ?, "
-                            + "Address = ? "
+                            + "Address = ?,"
+                            + "NOW() "
                             + "WHERE id = ?");
            st.setString(1, supplier.getName());
            st.setString(2, supplier.getContactPerson());
