@@ -32,8 +32,28 @@ public class OrderLevelRepository {
         }
     }
 
-    public void updateOrderLevel(OrderLevel orderLevel) {
-   
+    public void updateOrderLevel(OrderLevel orderLevel,int id) {
+        
+        Connection dbconn = DAOCONNECT.connectdb();
+        
+        try {
+            PreparedStatement st = (PreparedStatement)
+                    dbconn.prepareStatement("UPDATE orderlevel "
+                            + "SET materialId = ?, "
+                            + "reOrder = ?, "
+                            + "stopOrder =?, "
+                            + "WHERE id = ? ");
+            
+            st.setString(1, orderLevel.getMaterial());
+            st.setString(2, orderLevel.getReorder());
+            st.setString(3, orderLevel.getStoporder());
+            st.setInt(4, id);
+            
+            st.executeUpdate();
+            
+        } catch (SQLException ex) {
+            Logger.getLogger(UsersRepo.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 
     public void deleteOrderLevel(int id) {

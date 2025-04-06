@@ -15,8 +15,8 @@ public class OrderLevelService {
         olr.saveOrderLevel(orderlevel);
     }
     
-    public void updateOrderLevel(OrderLevel orderLevel){
-     olr.updateOrderLevel(orderLevel);
+    public void updateOrderLevel(OrderLevel orderLevel,int id){
+     olr.updateOrderLevel(orderLevel,id);
     }
     
     public void deleteOrderLevel(int id){
