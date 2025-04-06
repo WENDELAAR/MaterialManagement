@@ -17,9 +17,9 @@ public void updateInv(Inventory inv){
 
     inventoryRepository.updateInventory(inv);
 }
- public void deleteInventory(Inventory inv){
+ public void deleteInventory(int id){
 
-    inventoryRepository.deleteInventory(inv);
+    inventoryRepository.deleteInventory(id);
 }
 public List <Inventory> findAllInventory(Inventory inventory)
     {

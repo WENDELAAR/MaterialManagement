@@ -37,7 +37,19 @@ public class MaterialsRepository {
        
     }
 
-    public void deleteMaterial(Materials materials) {
+    public void deleteMaterial(int id) {
+        Connection dbconn = DAOCONNECT.connectdb();
+        
+        try
+        {
+            PreparedStatement st = (PreparedStatement)
+                    dbconn.prepareStatement("");
+            st.setInt(1, id);
+            st.executeUpdate();
+        }catch(SQLException ex)
+        {
+            Logger.getLogger(UsersRepo.class.getName()).log(Level.SEVERE, null, ex);
+        }
         
     }
 

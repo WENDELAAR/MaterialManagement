@@ -35,7 +35,21 @@ public void saveInventory(Inventory inventory){
         
     }
 
-    public void deleteInventory(Inventory inv) {
+    public void deleteInventory(int id) {
+        
+       Connection dbconn = DAOCONNECT.connectdb();
+       
+       try {
+           
+           PreparedStatement st = (PreparedStatement)
+                   dbconn.prepareStatement("");
+                   
+            st.setInt(1,id);
+            st.executeUpdate();
+       }catch(SQLException x)
+       {
+           Logger.getLogger(UsersRepo.class.getName()).log(Level.SEVERE,null,x);
+       }
         
     }
     

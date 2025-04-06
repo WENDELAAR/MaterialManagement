@@ -19,9 +19,9 @@ public void updateCategory(categories category){
 
     categoriesRepository.updateCategory(category);
 }
-public void deleteCategory(categories category){
+public void deleteCategory(int id){
 
-    categoriesRepository.deleteCategory(category);
+    categoriesRepository.deleteCategory(id);
 }
 public List <categories> findAllCategories(categories category){
     

@@ -34,7 +34,18 @@ public class CategoriesRepository {
         
     }
 
-    public void deleteCategory(categories category) {
+    public void deleteCategory(int id) {
+        
+        Connection dbconn = DAOCONNECT.connectdb();
+        
+        try{
+            PreparedStatement st = (PreparedStatement)
+                    dbconn.prepareStatement("DELETE FROM categories WHERE id = ?");
+            st.setInt(1,id);
+            st.executeUpdate();
+        }catch(SQLException ex){
+            Logger.getLogger(UsersRepo.class.getName()).log(Level.SEVERE, null,ex);
+        }
          
     }
     
