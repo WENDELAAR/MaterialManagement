@@ -37,4 +37,8 @@ public class UsersRepo {
   
     }
 
+    public void deleteUser(Users user) {
+ 
+    }
+
 }

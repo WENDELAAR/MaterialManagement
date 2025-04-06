@@ -34,5 +34,9 @@ public class OrderLevelRepository {
     public void updateOrderLevel(OrderLevel orderLevel) {
    
     }
+
+    public void deleteOrderLevel(OrderLevel orderLevel) {
+   
+    }
     
 }

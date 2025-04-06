@@ -16,4 +16,9 @@ public class SupplierService {
         
         sdr.updateSupplier(supplierDetails);
     }
+    
+    public void deleteSupplierDetailsRepo(SupplierDetails supplierDetails){
+        
+        sdr.deleteSupplier(supplierDetails);
+    }
 }

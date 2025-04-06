@@ -34,5 +34,9 @@ public class SupplierDetailsRepository {
     public void updateSupplier(SupplierDetails supplierDetails) {
   
     }
+
+    public void deleteSupplier(SupplierDetails supplierDetails) {
+  
+    }
     
 }

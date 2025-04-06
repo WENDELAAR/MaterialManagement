@@ -20,4 +20,10 @@ public class UserService {
     
     }
     
+     public void deleteUser(Users user){
+    
+        usersRepo.deleteUser(user);
+    
+    }
+    
 }

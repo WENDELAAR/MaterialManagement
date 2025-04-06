@@ -15,7 +15,12 @@ public class OrderLevelService {
     }
     
     public void updateOrderLevel(OrderLevel orderLevel){
-    olr.updateOrderLevel(orderLevel);
+     olr.updateOrderLevel(orderLevel);
     }
+    
+    public void deleteOrderLevel(OrderLevel orderLevel){
+     olr.deleteOrderLevel(orderLevel);
+    }
+    
     
 }
