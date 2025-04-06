@@ -36,8 +36,20 @@ public class SupplierDetailsRepository {
   
     }
 
-    public void deleteSupplier(SupplierDetails supplierDetails) {
+    public void deleteSupplier(int id) {
   
+            
+        Connection dbconn = DAOCONNECT.connectdb();
+        
+        try {
+            PreparedStatement st = (PreparedStatement)
+                    dbconn.prepareStatement("DELETE FROM supplierdetails WHERE id = ?");
+            st.setInt(1, id);
+            st.executeUpdate();
+        } catch (SQLException ex) {
+            Logger.getLogger(UsersRepo.class.getName()).log(Level.SEVERE, null, ex);
+        }
+ 
     }
     
     public List<SupplierDetails> findAllSuppliers(SupplierDetails supplierDetails) {

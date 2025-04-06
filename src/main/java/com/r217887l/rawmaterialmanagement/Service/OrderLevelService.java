@@ -19,8 +19,8 @@ public class OrderLevelService {
      olr.updateOrderLevel(orderLevel);
     }
     
-    public void deleteOrderLevel(OrderLevel orderLevel){
-     olr.deleteOrderLevel(orderLevel);
+    public void deleteOrderLevel(int id){
+     olr.deleteOrderLevel(id);
     }
    
     public List<OrderLevel> findAllOrderLevel(OrderLevel orderLevel){

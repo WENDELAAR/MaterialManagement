@@ -38,7 +38,18 @@ public class UsersRepo {
   
     }
 
-    public void deleteUser(Users user) {
+    public void deleteUser(int id) {
+        
+        Connection dbconn = DAOCONNECT.connectdb();
+        
+        try {
+            PreparedStatement st = (PreparedStatement)
+                    dbconn.prepareStatement("DELETE FROM users WHERE id = ?");
+            st.setInt(1, id);
+            st.executeUpdate();
+        } catch (SQLException ex) {
+            Logger.getLogger(UsersRepo.class.getName()).log(Level.SEVERE, null, ex);
+        }
  
     }
 

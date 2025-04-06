@@ -21,9 +21,9 @@ public class UserService {
     
     }
     
-    public void deleteUser(Users user){
+    public void deleteUser(int id){
     
-        usersRepo.deleteUser(user);
+        usersRepo.deleteUser(id);
     
     }
     
