@@ -31,5 +31,10 @@ public class MaterialsRepository {
             Logger.getLogger(UsersRepo.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
+
+    public void updateMaterial(Materials materials) {
+       
+    }
+
     
 }

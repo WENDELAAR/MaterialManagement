@@ -13,5 +13,9 @@ public class MaterialService {
         materialrepo.saveMaterials(material);
     
     }
+    public void updateMaterail(Materials materials){
+
+    materialrepo.updateMaterial(materials);
+}
     
 }

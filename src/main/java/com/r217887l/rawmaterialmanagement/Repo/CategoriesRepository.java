@@ -28,5 +28,9 @@ public class CategoriesRepository {
         }
         
    }
+
+    public void updateCategory(categories category) {
+        
+    }
    
 }

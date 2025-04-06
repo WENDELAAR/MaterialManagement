@@ -14,4 +14,9 @@ public void saveCategory(categories category){
     
 }
 
+public void updateCategory(categories category){
+
+    categoriesRepository.updateCategory(category);
+}
+
 }

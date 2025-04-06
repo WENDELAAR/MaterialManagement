@@ -29,5 +29,9 @@ public void saveInventory(Inventory inventory){
             Logger.getLogger(UsersRepo.class.getName()).log(Level.SEVERE, null, ex);
         }
 }
-    
+
+    public void updateInventory(Inventory inv) {
+        
+    }
+  
 }
