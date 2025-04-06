@@ -3,6 +3,7 @@ package com.r217887l.rawmaterialmanagement.Service;
 
 import com.r217887l.rawmaterialmanagement.Model.OrderLevel;
 import com.r217887l.rawmaterialmanagement.Repo.OrderLevelRepository;
+import java.util.List;
 
 
 public class OrderLevelService {
@@ -21,6 +22,10 @@ public class OrderLevelService {
     public void deleteOrderLevel(OrderLevel orderLevel){
      olr.deleteOrderLevel(orderLevel);
     }
-    
+   
+    public List<OrderLevel> findAllOrderLevel(OrderLevel orderLevel){
+     return olr.findAllOrderLevel(orderLevel);
+    }
+   
     
 }

@@ -2,6 +2,7 @@ package com.r217887l.rawmaterialmanagement.Service;
 
 import com.r217887l.rawmaterialmanagement.Model.Users;
 import com.r217887l.rawmaterialmanagement.Repo.UsersRepo;
+import java.util.List;
 
 public class UserService {
 
@@ -20,9 +21,15 @@ public class UserService {
     
     }
     
-     public void deleteUser(Users user){
+    public void deleteUser(Users user){
     
         usersRepo.deleteUser(user);
+    
+    }
+    
+    public List<Users> findAllUsers(Users users){
+    
+        return usersRepo.findAllUsers(users);
     
     }
     

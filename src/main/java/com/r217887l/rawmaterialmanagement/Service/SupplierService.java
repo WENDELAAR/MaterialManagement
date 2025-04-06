@@ -2,6 +2,7 @@ package com.r217887l.rawmaterialmanagement.Service;
 
 import com.r217887l.rawmaterialmanagement.Model.SupplierDetails;
 import com.r217887l.rawmaterialmanagement.Repo.SupplierDetailsRepository;
+import java.util.List;
 
 public class SupplierService {
 
@@ -21,4 +22,11 @@ public class SupplierService {
         
         sdr.deleteSupplier(supplierDetails);
     }
+    
+    public List<SupplierDetails> findAllSuppliers(SupplierDetails supplierDetails){
+        
+        return sdr.findAllSuppliers(supplierDetails);
+        
+    }
+    
 }

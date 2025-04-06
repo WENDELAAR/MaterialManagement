@@ -5,6 +5,7 @@ import com.r217887l.rawmaterialmanagement.Model.OrderLevel;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -37,6 +38,12 @@ public class OrderLevelRepository {
 
     public void deleteOrderLevel(OrderLevel orderLevel) {
    
+    }
+
+    public List<OrderLevel> findAllOrderLevel(OrderLevel orderLevel) {
+  
+        return null;
+  
     }
     
 }

@@ -6,6 +6,7 @@ import com.r217887l.rawmaterialmanagement.Model.Users;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -39,6 +40,12 @@ public class UsersRepo {
 
     public void deleteUser(Users user) {
  
+    }
+
+    public List<Users> findAllUsers(Users users) {
+    
+        return null;
+   
     }
 
 }
