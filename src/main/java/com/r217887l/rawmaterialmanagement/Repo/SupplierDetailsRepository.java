@@ -30,5 +30,9 @@ public class SupplierDetailsRepository {
             Logger.getLogger(UsersRepo.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
+
+    public void updateSupplier(SupplierDetails supplierDetails) {
+  
+    }
     
 }

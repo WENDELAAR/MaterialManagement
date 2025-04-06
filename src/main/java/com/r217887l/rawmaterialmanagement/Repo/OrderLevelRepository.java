@@ -30,5 +30,9 @@ public class OrderLevelRepository {
             Logger.getLogger(UsersRepo.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
+
+    public void updateOrderLevel(OrderLevel orderLevel) {
+   
+    }
     
 }

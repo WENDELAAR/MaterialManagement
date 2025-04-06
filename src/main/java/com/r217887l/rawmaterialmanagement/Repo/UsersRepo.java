@@ -33,4 +33,8 @@ public class UsersRepo {
         
     }
 
+    public void updateUser(Users user) {
+  
+    }
+
 }

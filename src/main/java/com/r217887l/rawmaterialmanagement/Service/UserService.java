@@ -13,4 +13,11 @@ public class UserService {
     
     }
     
+    
+    public void updateUser(Users user){
+    
+        usersRepo.updateUser(user);
+    
+    }
+    
 }

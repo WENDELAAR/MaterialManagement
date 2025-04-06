@@ -11,5 +11,9 @@ public class SupplierService {
         
         sdr.saveSupplier(supplierDetails);
     }
-    
+  
+    public void updateSupplierDetailsRepo(SupplierDetails supplierDetails){
+        
+        sdr.updateSupplier(supplierDetails);
+    }
 }
