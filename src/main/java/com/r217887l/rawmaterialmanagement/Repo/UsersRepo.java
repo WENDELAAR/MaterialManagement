@@ -34,8 +34,28 @@ public class UsersRepo {
         
     }
 
-    public void updateUser(Users user) {
-  
+    public void updateUser(Users users, int id) {
+        
+        Connection dbconn = DAOCONNECT.connectdb();
+        
+        try {
+            PreparedStatement st = (PreparedStatement)
+                    dbconn.prepareStatement("UPDATE Users "
+                            + "SET firstName = ?, "
+                            + "lastName = ?, "
+                            + "userName = ?, "
+                            + "roles = ?, "
+                            + "pass = ? "
+                            + "WHERE id = ?");
+            st.setString(1, users.getFirstName());
+            st.setString(2, users.getLastName());
+            st.setString(3, users.getUserName());
+            st.setString(4, users.getRoles());
+            st.setString(5, users.getPassword());
+            st.setInt(6, id);
+        } catch (SQLException ex) {
+            Logger.getLogger(UsersRepo.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 
     public void deleteUser(int id) {

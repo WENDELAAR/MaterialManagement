@@ -15,9 +15,9 @@ public class UserService {
     }
     
     
-    public void updateUser(Users user){
+    public void updateUser(Users user,int id){
     
-        usersRepo.updateUser(user);
+        usersRepo.updateUser(user,id);
     
     }
     

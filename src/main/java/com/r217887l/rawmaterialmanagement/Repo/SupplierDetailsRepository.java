@@ -32,8 +32,30 @@ public class SupplierDetailsRepository {
         }
     }
 
-    public void updateSupplier(SupplierDetails supplierDetails) {
-  
+    public void updateSupplier(SupplierDetails supplier, int id) {
+        
+        Connection dbconn = DAOCONNECT.connectdb();
+        
+        try {
+            PreparedStatement st = (PreparedStatement)
+                    dbconn.prepareStatement("UPDATE supplierdetails "
+                            + "SET name = ?, "
+                            + "contactPerson = ?,"
+                            + "email = ?, "
+                            + "Phone = ?, "
+                            + "Address = ? "
+                            + "WHERE id = ?");
+           st.setString(1, supplier.getName());
+           st.setString(2, supplier.getContactPerson());
+           st.setString(3, supplier.getEmail());
+           st.setString(4, supplier.getPhone());
+           st.setString(5, supplier.getAddress());
+           st.setInt(6, id);
+            
+        } catch (SQLException ex) {
+            Logger.getLogger(SupplierDetailsRepository.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
     }
 
     public void deleteSupplier(int id) {
