@@ -5,6 +5,7 @@ import com.r217887l.rawmaterialmanagement.Model.Materials;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -39,6 +40,11 @@ public class MaterialsRepository {
     public void deleteMaterial(Materials materials) {
         
     }
+
+    public List<Materials> findAllMaterials(Materials materials) {
+       return null;
+    }
+    
 
     
 }

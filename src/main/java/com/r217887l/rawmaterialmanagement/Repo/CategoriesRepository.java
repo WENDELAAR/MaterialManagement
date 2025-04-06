@@ -5,6 +5,7 @@ import com.r217887l.rawmaterialmanagement.Model.categories;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -34,7 +35,12 @@ public class CategoriesRepository {
     }
 
     public void deleteCategory(categories category) {
-        
+         
+    }
+    
+    public List <categories> findAllCategories(categories category){
+    
+        return null;
     }
    
 }

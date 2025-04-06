@@ -5,6 +5,7 @@ import com.r217887l.rawmaterialmanagement.Model.Inventory;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -36,6 +37,11 @@ public void saveInventory(Inventory inventory){
 
     public void deleteInventory(Inventory inv) {
         
+    }
+    
+    public List <Inventory> findAllInventory(Inventory inventory)
+    {
+        return null;
     }
   
 }

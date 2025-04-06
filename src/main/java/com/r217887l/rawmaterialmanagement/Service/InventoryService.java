@@ -1,8 +1,8 @@
 package com.r217887l.rawmaterialmanagement.Service;
 
 import com.r217887l.rawmaterialmanagement.Model.Inventory;
-import com.r217887l.rawmaterialmanagement.Model.categories;
 import com.r217887l.rawmaterialmanagement.Repo.InventoryRepository;
+import java.util.List;
 
 public class InventoryService {
     
@@ -21,5 +21,8 @@ public void updateInv(Inventory inv){
 
     inventoryRepository.deleteInventory(inv);
 }
-   
+public List <Inventory> findAllInventory(Inventory inventory)
+    {
+        return inventoryRepository.findAllInventory(inventory);
+    } 
 }
