@@ -19,6 +19,9 @@ public class CategoriesRepository {
                             + "(name) "
                             + "VALUES(?)");
             
+            st.setString(1, category.getName());
+            
+            st.executeUpdate();
             
         } catch (SQLException ex) {
             Logger.getLogger(UsersRepo.class.getName()).log(Level.SEVERE, null, ex);

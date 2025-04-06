@@ -26,7 +26,7 @@ public class UsersRepo {
             st.setString(3, users.getUserName());
             st.setString(4, users.getRoles());
             st.setString(5, users.getPassword());
-            
+            st.executeUpdate();
         } catch (SQLException ex) {
             Logger.getLogger(UsersRepo.class.getName()).log(Level.SEVERE, null, ex);
         }

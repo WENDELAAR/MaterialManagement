@@ -19,6 +19,14 @@ public class MaterialsRepository {
                             + "(name,description,sku,categoryId,supplierId) "
                             + "VALUES(?,?,?,?,?)");
             
+            st.setString(1, material.getName());
+            st.setString(2, material.getDec());
+            st.setString(3, material.getSku());
+            st.setString(4, material.getCategory());
+            st.setString(5, material.getSupplier());
+            
+            st.executeUpdate();
+            
         } catch (SQLException ex) {
             Logger.getLogger(UsersRepo.class.getName()).log(Level.SEVERE, null, ex);
         }

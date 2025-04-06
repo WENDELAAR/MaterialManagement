@@ -24,7 +24,7 @@ public void saveInventory(Inventory inventory){
             st.setInt(3, inventory.getStockin());
             st.setInt(4, inventory.getStockout());
             st.setDouble(5, inventory.getPrice());
-            
+            st.executeUpdate();
         } catch (SQLException ex) {
             Logger.getLogger(UsersRepo.class.getName()).log(Level.SEVERE, null, ex);
         }
