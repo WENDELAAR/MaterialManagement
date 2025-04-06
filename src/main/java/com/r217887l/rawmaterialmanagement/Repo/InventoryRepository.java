@@ -33,5 +33,9 @@ public void saveInventory(Inventory inventory){
     public void updateInventory(Inventory inv) {
         
     }
+
+    public void deleteInventory(Inventory inv) {
+        
+    }
   
 }

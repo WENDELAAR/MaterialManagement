@@ -32,5 +32,9 @@ public class CategoriesRepository {
     public void updateCategory(categories category) {
         
     }
+
+    public void deleteCategory(categories category) {
+        
+    }
    
 }

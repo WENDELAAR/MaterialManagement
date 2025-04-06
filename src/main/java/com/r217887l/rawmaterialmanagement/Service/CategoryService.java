@@ -18,5 +18,9 @@ public void updateCategory(categories category){
 
     categoriesRepository.updateCategory(category);
 }
+public void deleteCategory(categories category){
+
+    categoriesRepository.deleteCategory(category);
+}
 
 }

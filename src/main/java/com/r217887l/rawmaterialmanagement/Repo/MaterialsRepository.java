@@ -36,5 +36,9 @@ public class MaterialsRepository {
        
     }
 
+    public void deleteMaterial(Materials materials) {
+        
+    }
+
     
 }

@@ -17,5 +17,9 @@ public void updateInv(Inventory inv){
 
     inventoryRepository.updateInventory(inv);
 }
-    
+ public void deleteInventory(Inventory inv){
+
+    inventoryRepository.deleteInventory(inv);
+}
+   
 }

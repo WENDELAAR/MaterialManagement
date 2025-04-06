@@ -17,5 +17,9 @@ public class MaterialService {
 
     materialrepo.updateMaterial(materials);
 }
+    public void deleteMaterail(Materials materials){
+
+    materialrepo.deleteMaterial(materials);
+}
     
 }
