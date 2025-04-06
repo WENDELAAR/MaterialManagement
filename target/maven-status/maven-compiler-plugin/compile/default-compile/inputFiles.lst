@@ -1,5 +1,12 @@
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialsManagement\src\main\java\com\r217887l\rawmaterialmanagement\App.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialsManagement\src\main\java\com\r217887l\rawmaterialmanagement\RawMaterialManagement.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialsManagement\src\main\java\com\r217887l\rawmaterialmanagement\View\ViewLogin.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialsManagement\src\main\java\DAO\DAOCONNECT.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialsManagement\src\main\java\module-info.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\App.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Model\categories.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Model\Inventory.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Model\Materials.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Model\OrderLevel.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Model\SupplierDetails.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Model\Users.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\RawMaterialManagement.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Repo\UsersRepo.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\View\ViewLogin.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\DAO\DAOCONNECT.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\module-info.java

@@ -1,5 +1,12 @@
 com\r217887l\rawmaterialmanagement\App.class
+com\r217887l\rawmaterialmanagement\Model\Materials.class
+com\r217887l\rawmaterialmanagement\Repo\UsersRepo.class
 com\r217887l\rawmaterialmanagement\RawMaterialManagement.class
 com\r217887l\rawmaterialmanagement\View\ViewLogin.class
+com\r217887l\rawmaterialmanagement\Model\categories.class
+com\r217887l\rawmaterialmanagement\Model\SupplierDetails.class
 module-info.class
+com\r217887l\rawmaterialmanagement\Model\Users.class
+com\r217887l\rawmaterialmanagement\Model\OrderLevel.class
+com\r217887l\rawmaterialmanagement\Model\Inventory.class
 DAO\DAOCONNECT.class
