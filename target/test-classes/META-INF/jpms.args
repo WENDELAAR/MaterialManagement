@@ -1,0 +1,4 @@
+--patch-module
+module=_
+--add-reads
+module=ALL-UNNAMED
