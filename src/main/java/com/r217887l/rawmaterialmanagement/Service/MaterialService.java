@@ -1,13 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.r217887l.rawmaterialmanagement.Service;
 
-/**
- *
- * @author WENDELAAR MAHACHI
- */
+import com.r217887l.rawmaterialmanagement.Model.Materials;
+import com.r217887l.rawmaterialmanagement.Repo.MaterialsRepository;
+
 public class MaterialService {
+    
+    MaterialsRepository materialrepo = new MaterialsRepository();
+    
+    public void saveMaterial(Materials material){
+    
+        materialrepo.saveMaterials(material);
+    
+    }
     
 }

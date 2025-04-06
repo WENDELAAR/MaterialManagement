@@ -1,13 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.r217887l.rawmaterialmanagement.Service;
 
-/**
- *
- * @author WENDELAAR MAHACHI
- */
+import com.r217887l.rawmaterialmanagement.Model.OrderLevel;
+import com.r217887l.rawmaterialmanagement.Repo.OrderLevelRepository;
+
+
 public class OrderLevelService {
+    
+    OrderLevelRepository olr = new OrderLevelRepository();
+    
+    public void saveOrderLevelRepo(OrderLevel orderlevel){
+    
+        olr.saveOrderLevel(orderlevel);
+    }
     
 }
