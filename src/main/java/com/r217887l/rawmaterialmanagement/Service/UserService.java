@@ -32,5 +32,11 @@ public class UserService {
         return usersRepo.findAllUsers(users);
     
     }
+
+    public boolean checkIfUserTableEmpty() {
+   
+        return usersRepo.chechIfUserTableEmpty();
+   
+    }
     
 }

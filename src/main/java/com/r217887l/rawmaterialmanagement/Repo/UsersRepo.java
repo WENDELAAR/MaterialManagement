@@ -5,7 +5,9 @@ import DAO.DAOCONNECT;
 import com.r217887l.rawmaterialmanagement.Model.Users;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -76,6 +78,30 @@ public class UsersRepo {
     public List<Users> findAllUsers(Users users) {
     
         return null;
+   
+    }
+
+    public boolean chechIfUserTableEmpty() {
+   
+        Connection dbconn = DAOCONNECT.connectdb();
+        
+        try {
+            Statement st = dbconn.createStatement();
+            ResultSet res = st.executeQuery("SELECT COUNT(*) FROM users");
+               while(res.next()){
+            
+                int count = res.getInt(1);
+                
+                if (count==0){
+                    System.out.println("table is empry");
+                    return true;
+                }
+            }
+        } catch (SQLException ex) {
+            Logger.getLogger(UsersRepo.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        return false;
    
     }
 

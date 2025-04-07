@@ -1,25 +1,29 @@
 package com.r217887l.rawmaterialmanagement;
 
+import com.r217887l.rawmaterialmanagement.Service.UserService;
+import com.r217887l.rawmaterialmanagement.View.MainView;
 import com.r217887l.rawmaterialmanagement.View.ViewLogin;
 import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
 public class App extends Application{
 
+    private final UserService userService = new UserService();
+    
     @Override
     public void start(Stage primaryStage) throws Exception {
 
-        StackPane root = new StackPane();
+        final boolean emptyUserTable = userService.checkIfUserTableEmpty();
         
-        ViewLogin init = new ViewLogin();
-        init.ViewLogin(root,primaryStage);
+        if(emptyUserTable){
+            MainView init = new MainView();
+            init.MainView(primaryStage);
+        }else{
+       
+            ViewLogin init = new ViewLogin();
+            init.ViewLogin(primaryStage);
         
-        Scene scene = new Scene(root,500,500);
-        primaryStage.setScene(scene);
-        primaryStage.setResizable(true);
-        primaryStage.show();
+        }
         
     }
     
