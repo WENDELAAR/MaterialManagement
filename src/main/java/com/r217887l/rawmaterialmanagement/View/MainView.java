@@ -1,6 +1,5 @@
 package com.r217887l.rawmaterialmanagement.View;
 
-import javafx.animation.TranslateTransition;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -12,27 +11,19 @@ import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
-import javafx.util.Duration;
 
 public class MainView {
-    
-    private boolean isDrawerVisible = false;
-    private static final double DRAWER_WIDTH = 250;
     
     public void MainView(Stage primaryStage){
         
         BorderPane root = new BorderPane();
-        
-             VBox drawer = configureDrawer();
-        drawer.setTranslateX(-DRAWER_WIDTH); // Initially hide the drawer
 
         StackPane content = new StackPane();
         content.setStyle("-fx-background-color:  #E6E6FA;");
         
         HBox header = configureHeader();
         
-        Button toggle = configureToggleButton();
-        toggle.setOnMouseClicked(_->toggleDrawer(drawer,content));
+        VBox drawer = configureDrawer(content);
         
         VBox logoPane = new VBox();
         logoPane.setAlignment(Pos.CENTER);
@@ -42,12 +33,11 @@ public class MainView {
         logo.setFont(Font.font("Tahoma",32));
         logoPane.getChildren().add(logo);
         
-        header.getChildren().addAll(toggle,logoPane);
-   
-        StackPane mainContent = new StackPane(drawer,content);
+        header.getChildren().add(logoPane);
    
         root.setTop(header);
-        root.setCenter(mainContent);
+        root.setLeft(drawer);
+        root.setCenter(content);
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);
         primaryStage.setMaximized(true);
@@ -55,9 +45,9 @@ public class MainView {
     
     }
 
-    private VBox configureDrawer() {
+    private VBox configureDrawer(StackPane content) {
         VBox drawer = new VBox(10);
-        drawer.setStyle("-fx-background-color: #818589; -fx-pref-width: " + DRAWER_WIDTH + ";");
+        drawer.setStyle("-fx-background-color: #818589;");
         drawer.setPadding(new Insets(30));
         
         Button dashboard = new Button("Dashboard");
@@ -85,7 +75,9 @@ public class MainView {
         
         });
         
+        dashboard.setOnAction(_->{
         
+        });
                 
         Button inventory = new Button("Inventory");
         inventory.setPrefSize(190,40);
@@ -214,6 +206,13 @@ public class MainView {
         
         });
         
+        users.setOnAction(_->{
+        
+            UserView init = new UserView();
+            init.UserView();
+            
+        });
+        
         
         
         drawer.getChildren().addAll(dashboard,inventory,materials,orderLevel,supplier,users);
@@ -233,31 +232,4 @@ public class MainView {
         return header;
    
     }
-    
-    private Button configureToggleButton() {
-        Button toggle = new Button("Toggle");
-        toggle.setPrefHeight(50);
-        return toggle;
-   
-    }
-
-    private void toggleDrawer(VBox drawer, StackPane content) {
-          TranslateTransition transition = new TranslateTransition(Duration.millis(300), drawer);
-
-        if (isDrawerVisible) {
-            // Hide drawer
-            transition.setFromX(0);
-            transition.setToX(-DRAWER_WIDTH);
-            content.setTranslateX(0); // Reset content position
-        } else {
-            // Show drawer
-            transition.setFromX(-DRAWER_WIDTH);
-            transition.setToX(0);
-            content.setTranslateX(DRAWER_WIDTH); // Move content right when drawer shows
-        }
-
-        transition.play();
-        isDrawerVisible = !isDrawerVisible;
-    }
-    
 }
