@@ -10,13 +10,14 @@ public class DAOCONNECT {
     
       static final String URL = "jdbc:mysql://localhost:3306/panashe";
     static final String User = "root";
-    static final String Pass = "Tinavo@2001";
+    static final String Pass = "Elvis.blaba02";
     
     public static Connection connectdb(){
         Connection conn = null;
 
         try {
-Class.forName("com.mysql.cj.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(DAOCONNECT.class.getName()).log(Level.SEVERE, null, ex);
         }

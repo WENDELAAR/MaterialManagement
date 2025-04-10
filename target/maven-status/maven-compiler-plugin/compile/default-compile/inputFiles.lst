@@ -1,26 +1,30 @@
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\App.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Model\categories.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Model\Inventory.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Model\Materials.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Model\OrderLevel.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Model\SupplierDetails.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Model\Users.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\RawMaterialManagement.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Repo\CategoriesRepository.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Repo\InventoryRepository.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Repo\MaterialsRepository.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Repo\OrderLevelRepository.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Repo\SupplierDetailsRepository.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Repo\UsersRepo.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Service\CategoryService.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Service\InventoryService.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Service\MaterialService.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Service\OrderLevelService.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Service\SupplierService.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Service\UserService.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\View\MainView.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\View\MaterialView.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\View\UserView.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\View\ViewLogin.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\DAO\DAOCONNECT.java
-C:\Users\WENDELAAR MAHACHI\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\module-info.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\App.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Model\categories.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Model\Inventory.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Model\Materials.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Model\OrderLevel.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Model\SupplierDetails.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Model\Users.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\RawMaterialManagement.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Repo\CategoriesRepository.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Repo\InventoryRepository.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Repo\MaterialsRepository.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Repo\OrderLevelRepository.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Repo\SupplierDetailsRepository.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Repo\UsersRepo.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Service\CategoryService.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Service\InventoryService.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Service\MaterialService.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Service\OrderLevelService.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Service\SupplierService.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\Service\UserService.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\View\InventoryView.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\View\MainView.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\View\MaterialView.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\View\PaymentsView.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\View\SupplierView.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\View\UserView.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\com\r217887l\rawmaterialmanagement\View\ViewLogin.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\DAO\DAOCONNECT.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\Model\Users.java
+C:\Users\Elvis\Documents\NetBeansProjects\MaterialManagement\MaterialManagement\src\main\java\module-info.java

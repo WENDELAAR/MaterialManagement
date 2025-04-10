@@ -19,8 +19,12 @@ com\r217887l\rawmaterialmanagement\Service\SupplierService.class
 com\r217887l\rawmaterialmanagement\View\MaterialView.class
 com\r217887l\rawmaterialmanagement\Model\Users.class
 com\r217887l\rawmaterialmanagement\Repo\SupplierDetailsRepository.class
+Model\Users.class
+com\r217887l\rawmaterialmanagement\View\InventoryView.class
 com\r217887l\rawmaterialmanagement\Model\categories.class
 com\r217887l\rawmaterialmanagement\Repo\CategoriesRepository.class
 com\r217887l\rawmaterialmanagement\Service\InventoryService.class
 com\r217887l\rawmaterialmanagement\Model\OrderLevel.class
+com\r217887l\rawmaterialmanagement\View\SupplierView.class
 DAO\DAOCONNECT.class
+com\r217887l\rawmaterialmanagement\View\PaymentsView.class

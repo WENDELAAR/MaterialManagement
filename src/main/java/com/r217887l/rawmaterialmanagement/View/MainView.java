@@ -104,6 +104,13 @@ public class MainView {
         
         });
         
+        inventory.setOnAction(_->{
+            
+            InventoryView init = new InventoryView();
+            init.InventoryView(content);
+        
+        });
+        
         Button materials = new Button("Materials");
         materials.setPrefSize(190,40);
         materials.setStyle("-fx-background-color: #001429;"
@@ -127,6 +134,12 @@ public class MainView {
                  + "-fx-border-color: transparent;"
                 + "-fx-font-weight: bold;");
         
+        });
+        
+        materials.setOnAction(_->{
+            
+            MaterialView init = new MaterialView();
+            init.MaterialView(content);
         });
         
         Button orderLevel = new Button("Payments");
@@ -154,7 +167,7 @@ public class MainView {
                 + "-fx-font-weight: bold;");
         
         });
-        
+   
         Button supplier = new Button("Supplier Details");
         supplier.setPrefSize(190,40);
         supplier.setStyle("-fx-background-color: #001429;"
@@ -177,6 +190,13 @@ public class MainView {
                 +" -fx-text-fill: white;"
                  + "-fx-border-color: transparent;"
                 + "-fx-font-weight: bold;");
+        
+        });
+        
+        supplier.setOnAction(_->{
+        
+            SupplierView init = new SupplierView();
+            init.SupplierView(content);
         
         });
         
